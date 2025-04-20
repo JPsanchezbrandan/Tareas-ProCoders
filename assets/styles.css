@@ -1,0 +1,118 @@
+.site-header {
+    background-color: #053c73;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+  
+.site-header__title {
+    font-size: 70px;
+    font-weight: 500;
+    margin: 50px;
+}
+  
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+    background-color: #8ebae5;
+}
+  
+.nav__menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_link{
+    color: aliceblue;
+    font-size: 2rem;
+    text-decoration: none;
+    
+}
+
+.nav_link:hover {
+    color: rgb(102, 117, 220);
+    transform: scale(1.1);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main-content {
+    padding: 30px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.about {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e6f7ff;
+}
+
+.about__name {
+    font-weight: bold;
+    color: #000000;
+}
+
+.favorites__list {
+    padding-left: 25px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.contact__input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.contact__submit {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.contact__submit:hover {
+    background-color: #0a5ea8;
+}
+
+.message__dialog {
+    padding: 20px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.message__button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.message__button:hover {
+    background-color: #005e99;
+}
+
+.site-footer {
+    text-align: left;
+    padding: 20px;
+    background-color: #333;
+    color: #eee;
+    font-size: 0.9rem;
+}
